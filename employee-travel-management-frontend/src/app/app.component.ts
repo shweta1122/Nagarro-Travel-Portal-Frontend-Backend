@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'employee-travel-management-frontend';
+  hotels = []
+
+  constructor() {
+    //baad me axios use krrnaok
+    fetch("http://localhost:8080").then(x => x.json()).then(data => this.hotels = data)
+  }
 }
