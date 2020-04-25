@@ -21,4 +21,4 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: cd ./employee-travel-management && mvn -B package --file pom.xml
+      run: cd ./employee-travel-management && mvn -B compile --file pom.xml
