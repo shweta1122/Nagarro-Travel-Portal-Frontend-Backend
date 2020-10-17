@@ -1,4 +1,4 @@
-# Nagarro-Travel-Portal
+# Nagarro-Travel-Portal-Frontend-Backend
 
 ![Java CI with Maven](https://github.com/shweta1122/Nagarro-Travel-Portal/workflows/Java%20CI%20with%20Maven/badge.svg)
 
